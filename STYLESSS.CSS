@@ -1,0 +1,158 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#333; /* Dark background */
+    color: #f0f0f0; /* Light text color for contrast */
+}
+
+/* Header styles */
+header {
+    background-color:green; /* Dark header */
+    color: #f0f0f0;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+nav ul {
+    
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    color: green;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li.active a {
+    color: aqua; /* Highlight color */
+}
+
+/* Hero section */
+.hero {
+    background-color:rgb(117,117,165); /* Bright accent color */
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: green; /* Dark button */
+    color: white; /* Bright accent for button text */
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color:aqua; /* Change to accent color on hover */
+    color: #1e1e1e;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Featured Services */
+.featured-services {
+    padding: 20px;
+}
+
+.featured-services h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Bright color for heading */
+}
+
+.featured-services ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-services li {
+    text-align: center;
+    margin: 15px;
+}
+
+.featured-services img {
+    width: 80%;
+    height: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color:  #333; /* Dark background for testimonials */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.testimonials h3 {
+    pricelist.html
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Promotions */
+.promotions {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for promotions */
+}
+
+/* Media section */
+.media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.media iframe, .media video {
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e; /* Matching dark footer */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
